@@ -12,3 +12,8 @@ num = Math.floor(Math.random() * 5);
 //次の条件式で比較される、変数numの現在の値を出力する
 console.log('現在の値は' + num + 'です');
 }
+
+//1～10までの数値を順番に出力する
+for (let i =1; i <= 10; i++) {
+  console.log(i);
+}
