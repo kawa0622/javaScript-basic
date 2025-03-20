@@ -19,3 +19,8 @@ const headings = document.getElementsByClassName('heading');
 for (let i = 0; i < headings.length; i++) {
   console.log(headings[i]);
 }
+
+//HTML要素をCSSセレクタで取得し、中身を出力する（最初の一つ）
+console.log(document.querySelector('h1'));
+console.log(document.querySelector('#second-heading'));
+console.log(document.querySelector('.list'));
