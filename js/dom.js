@@ -24,3 +24,7 @@ for (let i = 0; i < headings.length; i++) {
 console.log(document.querySelector('h1'));
 console.log(document.querySelector('#second-heading'));
 console.log(document.querySelector('.list'));
+
+//HTML要素をCSSセレクタで取得し、中身を出力する（すべて）
+console.log(document.querySelectorAll('.heading'));
+console.log(document.querySelectorAll('li'));
