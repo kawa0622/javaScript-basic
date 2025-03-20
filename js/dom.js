@@ -28,3 +28,14 @@ console.log(document.querySelector('.list'));
 //HTML要素をCSSセレクタで取得し、中身を出力する（すべて）
 console.log(document.querySelectorAll('.heading'));
 console.log(document.querySelectorAll('li'));
+
+//新しくli要素を作成し、定数に代入する
+const li = document.createElement('li');
+
+//作成したli要素にテキストを追加する
+li.textContent = 'JavaScriptで新しく作成したリスト3';
+//textContentは、HTML要素にテキストを追加するため、プロパティ値に代入することば
+
+//ul要素の末尾にli要素を追加する
+document.querySelector('ul').appendChild(li);
+//↑HTML要素をCSSで取得し、ulを取得。ulの末尾にli.textContentで作成したテキストを追加する
